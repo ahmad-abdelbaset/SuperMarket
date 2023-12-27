@@ -7,7 +7,6 @@ import tkinter.font as tkFont
 import pygame
 
 import ConnectionDB
-from tkcalendar import Calendar
 import MainProgram
 
 bg_color = '#EFFFD8'
@@ -791,7 +790,7 @@ def admin_frame(admin_settings_frame, root, cursor,main_frame_variables):
     lower_frame = tk.Frame(admin_settings_frame,borderwidth=2, relief="raised", bg=bg_label)
     lower_frame.grid(row=2, column=0, columnspan=2, padx=5, pady=10, sticky=tk.NSEW)
 
-    label = tk.Label(lower_frame, text="For any issue: ahmad.abdelbaset@outlook.com       Phone: 052-3173008", bg=bg_label )
+    label = tk.Label(lower_frame, text="For any issue: ahmad.abdelbaset@outlook.com", bg=bg_label )
     label.pack()
 
 
